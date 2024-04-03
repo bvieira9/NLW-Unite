@@ -18,8 +18,9 @@ body {
 }
 
 .container {
-  max-width: 690px;
+  max-width: 720px;
   margin: 0 auto;
+  padding: 20px 32px;
 }
 
 header {
@@ -29,6 +30,7 @@ header {
 form{
   border: var(--border);
   border-inline: none;
+  padding: 20px 0;
 }
 
 fieldset{
