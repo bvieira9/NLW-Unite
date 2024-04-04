@@ -140,7 +140,7 @@ event.target.querySelector('[name="email"]').value = ""
 const fazerCheckIn = (event) => {
   // confirmar se realmente quer o check-in
   const mensagemConfirmacao = 'Tem certeza que deseja fazer o check-in?'
-  if(confirm(mensagemConfirmacao) = false) {
+  if(confirm(mensagemConfirmacao) == false) {
     return
   }
 
